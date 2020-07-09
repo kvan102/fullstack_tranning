@@ -1,11 +1,13 @@
 <template>
   <div id="app">
+    
       <page-header></page-header>
       <main>
-        <v-container> Hello world
+        <v-container fluid > Hello world
           <router-view></router-view>
         </v-container>
       </main>
+    
   </div>
     <!-- <img src="./assets/logo.png"> --> 
 </template>

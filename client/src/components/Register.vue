@@ -3,8 +3,9 @@
 <template>
   <v-layout column>
     <v-flex xs6 offset-xs3>
-      <div class="while elevation-2">
-        <v-toolbar flat dense class="cyan" dark>
+      <div :class="`elevation-${hover ? 24 : 6}`"
+          class="mx-auto pa-6 transition-swing">
+        <v-toolbar flat dense class="cyan" color="#006064" dark>
           <v-toolbar-title>Register</v-toolbar-title> 
         </v-toolbar>
        

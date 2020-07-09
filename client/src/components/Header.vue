@@ -1,17 +1,23 @@
 /* eslint-disable no-alert, no-console */
 
 <template>
-    <v-toolbar dense fixed class="cyan" dark  >
-        <v-toolbar-title class="mr-1">
+    <v-card
+      class="mx-auto"
+      max-width="margin"
+      style="margin-top: -64px;"
+    >
+    <v-toolbar dense flat fixed class="cyan" color="#006064" dark >
+        <v-toolbar-title class="mr-4" >
             Adminsite
         </v-toolbar-title>
         <v-spacer></v-spacer> 
         <v-toolbar-items>
-            <v-btn flat>
+            <v-btn x-small flat color="#006064" dark>
             Sign Up
             </v-btn>
         </v-toolbar-items>
     </v-toolbar>
+    </v-card>
 </template>
 
 <script>

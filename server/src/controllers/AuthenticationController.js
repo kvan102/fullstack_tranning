@@ -1,4 +1,4 @@
-const {Users} = require('../models')
+const {User} = require('../models')
 
 module.exports = {
     async register (req, res) {
