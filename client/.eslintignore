@@ -3,4 +3,6 @@
 /dist/
 /*.js
 /test/unit/coverage/
-*
+// eslint-disable-next-line
+/* eslint-disable */
+/* eslint-disable no-new */
